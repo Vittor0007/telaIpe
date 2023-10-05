@@ -1,0 +1,82 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.imagem {
+  width: 7rem;
+  height: 4rem;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  opacity: 3;
+  gap: 0.5rem;
+}
+
+.input {
+  height: 1.5rem;
+  width: 17rem;
+  border-radius: 0.313rem;
+  border: 1.5px solid;
+  padding-left: 0.5rem;
+  font-size: 0.5rem;
+  color: #101010;
+  opacity: 0.3;
+  font-weight: 600;
+}
+span {
+  color: var(--cores-primria-2, #0067f4);
+  opacity: 0.8;
+}
+
+.texto {
+  font-size: 0.6rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.015rem;
+  display: flex;
+  max-width: 19rem;
+  opacity: 0.5;
+}
+
+.button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: aliceblue;
+  height: 2.1rem;
+  text-align: center;
+  width: 18rem;
+  font-size: 0.588rem;
+  border-radius: 0.313rem;
+  font-weight: 600;
+  border: 0;
+}
+
+.fazer-login {
+  display: flex;
+  justify-content: center;
+  width: 19rem;
+  font-size: 0.6rem;
+  opacity: 0.5;
+}
+
+.nomee {
+  color: aliceblue;
+}
+a {
+  text-decoration: none;
+}
